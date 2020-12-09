@@ -11,7 +11,7 @@
         },
         {
             "label": "PWA (Vercel)",
-            "templatedUri":"https://dc-content-managed-pwa-nextjs-gopro.vercel.app/visualization?id={{content.sys.id}}&contentApi={{vse.domain}}",
+            "templatedUri":"https://dc-content-managed-pwa-nextjs-fastshop.vercel.app/visualization?id={{content.sys.id}}&contentApi={{vse.domain}}",
             "default": false
         },
         {
@@ -29,5 +29,5 @@
             "templatedUri":"http://localhost:3000/visualization?id={{content.sys.id}}&contentApi={{vse.domain}}"
         }]
     },
-    "repositories": ["mastercontent","francais","italiano","deutsch"]
+    "repositories": ["content"]
 }
