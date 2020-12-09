@@ -7,12 +7,12 @@
         {
             "label": "PWA (Localhost)",
             "templatedUri":"http://localhost:3000/visualization?id={{content.sys.id}}&contentApi={{vse.domain}}",
-            "default": true
+            "default": false
         },
         {
             "label": "PWA (Vercel)",
             "templatedUri":"https://dc-content-managed-pwa-nextjs-fastshop.vercel.app/visualization?id={{content.sys.id}}&contentApi={{vse.domain}}",
-            "default": false
+            "default": true
         },
         {
             "label": "JSON",
